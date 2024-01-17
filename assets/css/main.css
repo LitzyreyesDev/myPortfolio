@@ -479,11 +479,11 @@ header #menu-btn:hover{
 }
 
  .skill-item.item1 .box:nth-child(1) .progress-bar span{
-    width:50%;
+    width:60%;
 }
 
  .skill-item.item1 .box:nth-child(2) .progress-bar span{
-    width:30%;
+    width:70%;
 }
 
  .skill-item.item1 .box:nth-child(3) .progress-bar span{
@@ -491,7 +491,7 @@ header #menu-btn:hover{
 }
 
 .skill-item.item2 .box:nth-child(1) .progress-bar span{
-    width:85%;
+    width:90%;
 }
 
  .skill-item.item2 .box:nth-child(2) .progress-bar span{
@@ -499,19 +499,38 @@ header #menu-btn:hover{
 }
 
  .skill-item.item2 .box:nth-child(3) .progress-bar span{
-    width:85%;
+    width:80%;
 }
 .skill-item.item3 .box:nth-child(1) .progress-bar span{
     width:90%;
 }
 .skill-item.item3 .box:nth-child(2) .progress-bar span{
-    width:70%;
+    width:90%;
 }
 .skill-item.item3 .box:nth-child(3) .progress-bar span{
-    width:85%;
+    width:90%;
 }
 
-
+.skill-item.item4 .box:nth-child(1) .progress-bar span{
+    width:70%;
+}
+.skill-item.item4 .box:nth-child(2) .progress-bar span{
+    width:80%;
+}.skill-item.item4 .box:nth-child(3) .progress-bar span{
+    width:85%;
+}
+.skill-item.item5 .box:nth-child(1) .progress-bar span{
+    width:90%;
+}
+.skill-item.item5 .box:nth-child(2) .progress-bar span{
+    width:90%;
+}
+.skill-item.item5 .box:nth-child(3) .progress-bar span{
+    width:90%;
+}
+.skill-item.item6 .box:nth-child(1) .progress-bar span{
+    width:90%;
+}
 /*--------------------- 5- About Area CSS (End) ---------------------*/
 
 
