@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
     var appBtn = document.getElementById("app");
     var dashboardBtnUnicornio = document.getElementById("dashboardunicornio");
     var appUnicornio = document.getElementById("unicornioapp");
-  
+    var tictactoe = document.getElementById("tictactoe");
+
     dashboardBtn.onclick = function() {
       modal.style.display = "block";
       // Establecer la URL del video para el Dashboard Centro Dental
@@ -28,6 +29,12 @@ document.addEventListener("DOMContentLoaded", function() {
       modal.style.display = "block";
       // Establecer la URL del video para el Dashboard Unicornio
       document.getElementById("videoFrame").src = "https://www.youtube.com/embed/Me9hPZtEVyc";
+    }
+
+    tictactoe.onclick = function() {
+      modal.style.display = "block";
+      // Establecer la URL del video para el Dashboard Unicornio
+      document.getElementById("videoFrame").src = "https://www.youtube.com/embed/IcA7Chnwbd8";
     }
     
     closeModal.onclick = function() {
