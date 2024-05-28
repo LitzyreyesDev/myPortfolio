@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var dashboardBtnUnicornio = document.getElementById("dashboardunicornio");
     var appUnicornio = document.getElementById("unicornioapp");
     var tictactoe = document.getElementById("tictactoe");
+    var calculator = document.getElementById("calculator");
 
     dashboardBtn.onclick = function() {
       modal.style.display = "block";
@@ -35,6 +36,12 @@ document.addEventListener("DOMContentLoaded", function() {
       modal.style.display = "block";
       // Establecer la URL del video para el Dashboard Unicornio
       document.getElementById("videoFrame").src = "https://www.youtube.com/embed/IcA7Chnwbd8";
+    }
+
+    calculator.onclick = function() {
+      modal.style.display = "block";
+      // Establecer la URL del video para el Dashboard Unicornio
+      document.getElementById("videoFrame").src = "https://www.youtube.com/embed/A6JdPXdosio";
     }
     
     closeModal.onclick = function() {
